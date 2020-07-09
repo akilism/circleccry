@@ -3,7 +3,7 @@ version: 2
  jobs: 
   # This is our first job.
    one:
-   # it uses the docker executor
+   # it uses the docker executors
      docker: 
        - image: circleci/ruby:2.4.1 # specifically, a docker image with ruby 2.4.1
      # Steps are a list of commands to run inside the docker container above.
